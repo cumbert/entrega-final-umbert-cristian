@@ -1,0 +1,24 @@
+
+.CardItem {  
+    padding-top: 0;
+    max-width: 100%;
+    position: relative;  
+  }
+  
+  .ItemImg {
+   width: 20rem; 
+   object-fit: cover;  
+  }
+  
+  .ItemHeader {
+    color: #777a7a;
+    font-size: 1.1rem;
+  }
+  
+  section{
+    display: flex;
+    flex-direction: column;
+    
+    
+  }
+  

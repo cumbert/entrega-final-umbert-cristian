@@ -1,0 +1,41 @@
+.navbar {
+  display: flex;
+  align-items: center;  
+  justify-content: space-between;  
+  padding: 17px;  
+}
+
+.Categories {
+  display: flex;  
+  gap: 25px;  
+  background-color: transparent;
+
+}
+
+.Option {
+  color: #333;
+  text-decoration: none;
+  margin-right: 20px;
+  padding: 1rem;
+
+}
+
+.ActiveOption {
+  color: white;  
+  text-decoration: none;
+  background-color: black;
+  padding: 1rem;
+
+  
+}
+
+/*******IMAGEN****/
+
+
+.logo {
+  padding-top: 1rem;
+  width: 100%; 
+  max-width: 200px;  
+  height: auto;  
+  margin-left: 6rem;
+}

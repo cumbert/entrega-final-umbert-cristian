@@ -1,0 +1,31 @@
+.contenedor {
+    display: flex;
+    align-items: center; 
+    width: 25%;
+    position: absotule;
+    position: relative;
+    display: inline-block;
+  }
+  .contenedor {
+    display: flex;
+    align-items: flex-start; /* Alinea elementos verticalmente en la parte superior */
+  }
+  #carrito-icon {    
+    margin-right: 50rem;
+    width: 4.5rem;
+    
+  }
+  .numerito {
+    position: absolute;
+    top: 15px;
+    margin-left: 47px; /* Ajusta el espacio entre el ícono y el número */
+    margin-right: 80px;
+    background-color: red;
+    color: white;
+    border-radius: 50%;
+    width: 20px;
+    height: 20px;
+    text-align: center;
+    line-height: 20px;
+    font-size: 14px;
+  }
