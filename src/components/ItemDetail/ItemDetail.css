@@ -1,24 +1,23 @@
+.CardItem {
+  display: flex;
+  flex-direction: column;  
+  justify-content: center;
+  align-items: center;
+  text-align: center;  
+  height: 100vh;  
+}
 
-.CardItem {  
-    padding-top: 0;
-    max-width: 100%;
-    position: relative;  
-  }
-  
-  .ItemImg {
-   width: 20rem; 
-   object-fit: cover;  
-  }
-  
-  .ItemHeader {
-    color: #777a7a;
-    font-size: 1.1rem;
-  }
-  
-  section{
-    display: flex;
-    flex-direction: column;
-    
-    
-  }
-  
+.ItemImg {
+  max-width: 100%;
+}
+
+.Header,
+.ItemHeader,
+.Info,
+.ItemFooter {
+  color: black;
+}
+
+.Option {
+  margin: 0 auto;
+}

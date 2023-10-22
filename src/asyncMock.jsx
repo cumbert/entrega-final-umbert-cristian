@@ -174,11 +174,11 @@ export const getProducts = () => {
     })
 }
 
-export const getProductById = (id) => {
+export const getProductById = (itemId) => {
     return new Promise((resolve, reject) => {
         setTimeout(() => {
-            console.log({ products, id })
-            const product = products.find((p) => p.id === id)
+            console.log({ products, itemId })
+            const product = products.find((p) => p.id === itemId)
             if (products) return resolve(product)
 
             return reject({ error: 'No encontrado' })
@@ -190,7 +190,7 @@ export const getProductById = (id) => {
 export const getProductsByCategory = (categoryId) => {
     return new Promise((resolve) => {
         setTimeout(() => {
-            resolve(products.find(prod => prod.category === categoryId))
+            resolve(products.filter(prod => prod.category === categoryId))
         }, 500)
     })
 };
